@@ -14,4 +14,9 @@ class Program
     {
         Console.WriteLine("Bonjour " + nom + " !");
     }
+
+    static void DireAuRevoir()
+{
+    Console.WriteLine("Au revoir, modification depuis branche1 !");
+}
 }
