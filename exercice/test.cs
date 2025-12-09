@@ -16,7 +16,13 @@ class Program
     }
 
     static void DireAuRevoir()
-{
-    Console.WriteLine("Au revoir, modification depuis branche1 !");
-}
+    {
+        Console.WriteLine("Au revoir, modification depuis branche1 !");
+    }
+    static void AfficherDate()
+    {
+        Console.WriteLine("La date actuelle est : " + DateTime.Now);
+    }
+
+
 }
